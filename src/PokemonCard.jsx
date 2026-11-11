@@ -1,10 +1,10 @@
 
 function PokemonCard({pokemon}){
     return(
-    <il>
-        <img src={pokemon.sprites.front_default} alt={pokemon.name} />
-        {pokemon.name}
-    </il>);
-}
+        <li>
+            <img src={pokemon.sprites.front_default} alt={pokemon.id}/>
+            {pokemon.name}
+        </li>
+    )
 
-export default PokemonCard;
+}export default PokemonCard
